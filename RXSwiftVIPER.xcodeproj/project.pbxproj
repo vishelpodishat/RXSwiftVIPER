@@ -22,6 +22,9 @@
 		16040F312BCE672F00F5B1A6 /* DetailedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F2B2BCE672F00F5B1A6 /* DetailedModels.swift */; };
 		16040F322BCE672F00F5B1A6 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F2C2BCE672F00F5B1A6 /* DetailedViewController.swift */; };
 		16040F332BCE672F00F5B1A6 /* DetailedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F2D2BCE672F00F5B1A6 /* DetailedInteractor.swift */; };
+		16040F362BCF9F9E00F5B1A6 /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F352BCF9F9E00F5B1A6 /* MVVMModel.swift */; };
+		16040F392BCF9FCF00F5B1A6 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F382BCF9FCF00F5B1A6 /* MVVMViewController.swift */; };
+		16040F3B2BCFA83700F5B1A6 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16040F3A2BCFA83700F5B1A6 /* MVVMViewModel.swift */; };
 		161C2A5E2BC5C61F00CF0686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C2A5D2BC5C61F00CF0686 /* AppDelegate.swift */; };
 		161C2A602BC5C62000CF0686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C2A5F2BC5C62000CF0686 /* SceneDelegate.swift */; };
 		161C2A622BC5C62000CF0686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C2A612BC5C62000CF0686 /* ViewController.swift */; };
@@ -51,6 +54,9 @@
 		16040F2B2BCE672F00F5B1A6 /* DetailedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedModels.swift; sourceTree = "<group>"; };
 		16040F2C2BCE672F00F5B1A6 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		16040F2D2BCE672F00F5B1A6 /* DetailedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInteractor.swift; sourceTree = "<group>"; };
+		16040F352BCF9F9E00F5B1A6 /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
+		16040F382BCF9FCF00F5B1A6 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		16040F3A2BCFA83700F5B1A6 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		161C2A5A2BC5C61F00CF0686 /* RXSwiftVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161C2A5D2BC5C61F00CF0686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		161C2A5F2BC5C62000CF0686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,16 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
+		16040F342BCF9F8800F5B1A6 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				16040F352BCF9F9E00F5B1A6 /* MVVMModel.swift */,
+				16040F382BCF9FCF00F5B1A6 /* MVVMViewController.swift */,
+				16040F3A2BCFA83700F5B1A6 /* MVVMViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		161C2A512BC5C61F00CF0686 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +160,7 @@
 			children = (
 				161C2A5D2BC5C61F00CF0686 /* AppDelegate.swift */,
 				161C2A5F2BC5C62000CF0686 /* SceneDelegate.swift */,
+				16040F342BCF9F8800F5B1A6 /* MVVM */,
 				16040F1D2BCD637700F5B1A6 /* Clean */,
 				16FB9AC12BCD3BCC0062044A /* View */,
 				16FB9AC22BCD3BD00062044A /* Interactor */,
@@ -276,6 +293,7 @@
 			files = (
 				16040F262BCE515F00F5B1A6 /* MainTableViewCell.swift in Sources */,
 				16040F202BCE303A00F5B1A6 /* API.swift in Sources */,
+				16040F392BCF9FCF00F5B1A6 /* MVVMViewController.swift in Sources */,
 				161C2A622BC5C62000CF0686 /* ViewController.swift in Sources */,
 				16040F232BCE307300F5B1A6 /* Network.swift in Sources */,
 				161C2A5E2BC5C61F00CF0686 /* AppDelegate.swift in Sources */,
@@ -291,6 +309,8 @@
 				16040F302BCE672F00F5B1A6 /* DetailedRouter.swift in Sources */,
 				16040F312BCE672F00F5B1A6 /* DetailedModels.swift in Sources */,
 				16040F322BCE672F00F5B1A6 /* DetailedViewController.swift in Sources */,
+				16040F3B2BCFA83700F5B1A6 /* MVVMViewModel.swift in Sources */,
+				16040F362BCF9F9E00F5B1A6 /* MVVMModel.swift in Sources */,
 				16040F332BCE672F00F5B1A6 /* DetailedInteractor.swift in Sources */,
 				161C2A602BC5C62000CF0686 /* SceneDelegate.swift in Sources */,
 			);
